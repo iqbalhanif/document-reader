@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* High contrast focus indicators for accessibility */
+*:focus {
+    outline: 3px solid #0066CC;
+    outline-offset: 2px;
+}
+
+/* Ensure minimum touch target size */
+button,
+a {
+    min-width: 48px;
+    min-height: 48px;
+}
